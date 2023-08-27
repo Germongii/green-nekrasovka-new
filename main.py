@@ -7,7 +7,7 @@ import emoji
 
 blocked_address = ['1 вольская дом 6', 'льва яшина 3']
 blocked_commands = ['Фото с последней высадки' + emoji.emojize(':framed_picture:'),'Дата и место ближайшей высадки' + emoji.emojize(':spiral_calendar:'), 'О проекте' + emoji.emojize(':white_exclamation_mark:'),'Предложить адресс высадки']
-bot = telebot.TeleBot('5630686445:AAGW25GL2-9lVZAYkgImUFHokPVk4IYNkt8')
+bot = telebot.TeleBot('****')
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
